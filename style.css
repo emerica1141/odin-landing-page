@@ -1,0 +1,33 @@
+/* Color pallette
+#2C3333 
+#395B64
+#A5C9CA - 
+#E7F6F2 - Background */
+
+/* * {
+    margin: 10px 25px;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: #E7F6F2;
+    background-color: #395B64;
+    padding: 0 40px;
+} 
+
+.right-menu {
+    display: flex;
+}
+
+.right-menu a {
+    text-decoration: none;
+    color: #E7F6F2;
+}
+.logo {
+    font-weight: 900;
+} */
