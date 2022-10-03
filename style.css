@@ -4,11 +4,26 @@
 #A5C9CA - 
 #E7F6F2 - Background */
 
-/* * {
-    margin: 10px 25px;
+
+/* .header,
+.advert,
+.info,
+.testimonial,
+.call,
+.footer {
+    /* margin: 0 200px;
+} */ 
+
+
+/* ############## Header ############ */
+
+body {
+    /* margin: 10px 25px; */
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
+    background-color: #395B64;
 }
 
 .header {
@@ -17,11 +32,13 @@
     justify-content: space-between;
     color: #E7F6F2;
     background-color: #395B64;
-    padding: 0 40px;
 } 
 
 .right-menu {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
 }
 
 .right-menu a {
@@ -30,4 +47,132 @@
 }
 .logo {
     font-weight: 900;
-} */
+    font-size: 24px;
+}
+
+/* ############## Advertising ############ */
+
+.advert {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    color: #E7F6F2;
+    margin: 70px 0;
+}
+
+.signup {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 600px;
+}
+
+.signup h2 {
+    font-size: 40px;
+}
+
+.signup p {
+    font-weight: 400;
+    font-size: 20px;
+}
+
+#advert-signup {
+    width: 120px;
+    height: 35px;
+    background-color: #A5C9CA;
+    border-radius: 15px;
+    font-weight: 600;
+    border: none;
+    color: #E7F6F2;
+}
+
+.image {
+    width: 550px;
+    height: 275px;
+    border-radius: 15px;
+}
+
+
+/* ############## Random information ############ */
+
+#info {
+    margin: 40px 0;
+    font-size: 36px;
+    font-weight: 800;
+    color: #395B64;
+}
+
+.info-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #E7F6F2;
+}
+
+.info-row {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 80px;
+    
+}
+
+.info-panel {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info-panel p {
+    width: 250px;
+    text-align: center;
+    color: #395B64;
+    font-weight: 500;
+    font-size: 18px;
+    margin-bottom: 70px;
+
+}
+
+.illustration {
+    width: 250px;
+    height: 250px;
+    border-radius: 20px;
+}
+
+
+/* ############## Quote ############ */
+
+.testimonial {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #A5C9CA;
+}
+
+.quote {
+    width: 800px;
+    margin-top: 50px;
+}
+
+.quote p {
+    font-size: 30px;
+    font-style: italic;
+    color: #395B64;
+    margin: 0;
+}
+
+.author {
+    font-size: 24px;
+    margin-bottom: 50px;
+    width: 800px;
+    text-align: end;
+} 
+
+.author p {
+    margin: 0;
+}
+
+/* ############## Call to action ############ */
+
+
+/* ############## footer ############ */
